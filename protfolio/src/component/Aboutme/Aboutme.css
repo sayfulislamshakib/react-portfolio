@@ -1,0 +1,57 @@
+.options-color{
+  color: #8a2be2;
+}
+.aboutstyle{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    min-height: 500px;
+    background: #8a2be2;
+    transform: skewY(-3deg);
+    z-index: -1;
+    pointer-events: none;
+}
+
+.my-picture-style{
+  position: absolute;
+  padding-top: 6%;
+  margin-left: 6%;
+}
+
+.my-text-style{
+  color: #fff;
+  line-height: 200%;
+  position: absolute;
+  padding-top: 7%;
+  padding-left: 30%;
+  padding-right: 5%;
+  margin-left: 6%;
+}
+
+.text-bold{
+  font-weight: 900;
+}
+.text-small{
+  font-size: 13px;
+}
+.Motivation-style{
+  display: flex;
+  gap: 5rem;
+  position: absolute;
+  margin-left: 12%;
+  margin-top: 30%;
+}
+.Motivation{
+  width: 350px;
+  height: 110px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 5px 10px;
+}
+.Motivation p{
+  font-size: 14px;
+  padding: 20px;
+}
+.author{
+  margin-top: 16px;
+}

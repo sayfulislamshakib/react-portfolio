@@ -1,0 +1,14 @@
+.navstyle{
+  height: 50px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(82, 82, 82, 0.425);
+}
+
+.text-style{
+  padding-right: 8%;
+  font-weight: 500;
+  font-size: 14px;
+}
+.logo-style{
+  padding-left: 8%;
+}

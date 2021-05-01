@@ -1,0 +1,32 @@
+.options-color{
+  color: #8a2be2;
+}
+.colour-violet{
+  font-size: 25px;
+  color: #8a2ce2;
+  font-weight: 800;
+}
+
+.info-text{
+  color: gray;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.containerstyle img{
+  width: 100px;
+  height: 100px;
+}
+.cardimage{
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+.cardextrastyle{
+  margin: 50px;
+}
+.cardstyle{
+  background-color: #fff;
+  border-style: none;
+  border-radius: 6px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 5px 10px;
+}

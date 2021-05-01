@@ -1,23 +1,21 @@
 import React from 'react';
-import { Navbar } from 'react-bootstrap';
+import logos from '../images/logo.svg'
+import './Header.css';
+import { Navbar, Nav } from 'react-bootstrap';
 
 export const Header = () => {
   return (
-    <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-          </NavDropdown>
-        </Nav>
-    </Navbar>
+    <Navbar className="navstyle sticky-top" expand="lg">
+      <Navbar.Brand className="logo-style">
+        <img src={logos} alt="logo" width="45px" height="45px" />
+      </Navbar.Brand>
+      <Nav className="ml-auto text-style">
+        <Nav.Link href="#home">HOME</Nav.Link>
+        <Nav.Link href="#link">PROJECTS</Nav.Link>
+        <Nav.Link href="#link">BLOG</Nav.Link>
+        <Nav.Link href="#link">MY DESIGNS</Nav.Link>
+        <Nav.Link href="#link">ABOUT ME</Nav.Link>
+      </Nav>
+    </Navbar >
   )
 }
